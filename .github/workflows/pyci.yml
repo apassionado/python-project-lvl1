@@ -1,9 +1,8 @@
 name: Python CI
 
-on:
-  - push
+on: push 
   
-  jobs:
+jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
