@@ -6,3 +6,4 @@ https://asciinema.org/a/BSCUS2K1eOyCu9YJ4zWccKFcd
 =======
 [![Actions Example](https://github.com/apassionado/python-project-lvl1/actions/workflows/pyci.yml/badge.svg)]
 >>>>>>> ce01d02e255c9ff2b9137f35fbc1d35ee121ee2f
+https://asciinema.org/a/koQXxPatSSOOsXMfb2Me0OD2s
