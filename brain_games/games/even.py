@@ -2,18 +2,10 @@ from random import randint
 import prompt
 
 
-def loop(last):
-    truth = 'yes'
-    for i in range(2, last):
-        if last % i == 0:
-            truth = 'no'
-    return truth
-
-
 def test():
-    last = randint(2, 100)
-    truth = loop(last)
-    print(f'Question:{last}')
+    random_number = randint(1, 100)
+    truth = 'yes' if random_number % 2 == 0 else 'no'
+    print(f'Question:{random_number}')
     bet = prompt.string('Your answer: ')
     return bet, truth
 
