@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.9.0"
+version = "0.1.0"
 description = "Package of five command line games"
 authors = ["Vitaly Kobalchinskij <v9i9t9@yahoo.com>"]
 repository = "https://github.com/apassionado/python-project-lvl1"
