@@ -3,7 +3,7 @@ name = "hexlet-code"
 version = "0.9.0"
 description = "Package of five command line games"
 authors = ["Vitaly Kobalchinskij <v9i9t9@yahoo.com>"]
-repositoty = "https://github.com/apassionado/python-project-lvl1"
+repository = "https://github.com/apassionado/python-project-lvl1"
 classifiers = [
     "Topic :: Software Development :: Python Games :: Student's Project"
 ]
