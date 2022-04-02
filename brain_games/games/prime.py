@@ -13,7 +13,7 @@ def loop(last):
 def test():
     last = randint(2, 100)
     truth = loop(last)
-    print(f'Question:{last}')
+    print(f'Question: {last}')
     bet = prompt.string('Your answer: ')
     return bet, truth
 
