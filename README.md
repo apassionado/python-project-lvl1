@@ -9,27 +9,27 @@
 
 
 - brain-even
-<p>&nbsp;</p>
+
+
 [![asciicast brain-even](https://asciinema.org/a/BSCUS2K1eOyCu9YJ4zWccKFcd.png)](https://asciinema.org/a/BSCUS2K1eOyCu9YJ4zWccKFcd)
-
-
+<p>&nbsp;</p>
 - brain-calc
-<p>&nbsp;</p>
+
 [![asciicast brain-calc](https://asciinema.org/a/koQXxPatSSOOsXMfb2Me0OD2s.png)](https://asciinema.org/a/koQXxPatSSOOsXMfb2Me0OD2s)
-
-
+<p>&nbsp;</p>
 - brain-gcd
-<p>&nbsp;</p>
+
+
 [![asciicast brain-gcd](https://asciinema.org/a/fIZsuV5LIebhBnQS64LHu8dOc.png)](https://asciinema.org/a/fIZsuV5LIebhBnQS64LHu8dOc)
-
-
+<p>&nbsp;</p>
 - brain-progression
-<p>&nbsp;</p>
+
+
 [![asciicast brain-progression](https://asciinema.org/a/0OPAMh2xlfm8eqTC1KwgQYnwn.png)](https://asciinema.org/a/0OPAMh2xlfm8eqTC1KwgQYnwn)
-
-
-- brain-prime
 <p>&nbsp;</p>
+- brain-prime
+
+
 [![asciicast brain-prime](https://asciinema.org/a/5G7cbfyTeE14WPJKpykuje5mR.png)](https://asciinema.org/a/5G7cbfyTeE14WPJKpykuje5mR)
 
 
