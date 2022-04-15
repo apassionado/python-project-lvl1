@@ -1,21 +1,10 @@
 #!/usr/bin/env python
-import prompt
-# import random
 from brain_games.games import progression
-
-
-def intro():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-    print('What number is missing in the progression?')
-    return name
+from brain_games import engine
 
 
 def main():
-    name = intro()
-    iterator = 0
-    progression.main(name, iterator)
+    engine.run_game(progression)
     return
 
 

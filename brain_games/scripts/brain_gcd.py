@@ -1,22 +1,10 @@
 #!/usr/bin/env python
-import prompt
-# import random
-from ..games import gcd
-
-
-def intro():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-#    print('Hello, {}!'.format(name))
-    print('Find the greatest common divisor of given numbers.')
-    return name
+from brain_games.games import gcd
+from brain_games import engine
 
 
 def main():
-    name = intro()
-    iterator = 0
-    gcd.main(name, iterator)
+    engine.run_game(gcd)
     return
 
 

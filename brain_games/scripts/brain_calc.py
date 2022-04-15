@@ -1,26 +1,10 @@
 #!/usr/bin/env python
-import prompt
-import random
-from ..games import calc
-
-
-def intro():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-#    print('Hello, {}!'.format(name))
-    return name
-
-
-def ops_order():
-    return random.sample((0, 1, 2,), 3)
+from brain_games.games import calc
+from brain_games import engine
 
 
 def main():
-    name = intro()
-    sequence = ops_order()
-    iterator = 0
-    calc.main(name, sequence, iterator)
+    engine.run_game(calc)
     return
 
 
