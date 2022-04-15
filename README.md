@@ -30,7 +30,7 @@
 - brain-prime
 
 
-[![asciicast brain-prime](https://asciinema.org/a/5G7cbfyTeE14WPJKpykuje5mR.png)](https://asciinema.org/a/5G7cbfyTeE14WPJKpykuje5mR)
+[![asciicast brain-prime](https://asciinema.org/a/AesSEL6mAzwPLl1VQGchGMgym.svg)](https://asciinema.org/a/AesSEL6mAzwPLl1VQGchGMgym)
 
 
 ### Hexlet tests and linter status:
