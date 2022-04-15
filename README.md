@@ -12,21 +12,26 @@
 
 
 [![asciicast brain-even](https://asciinema.org/a/BSCUS2K1eOyCu9YJ4zWccKFcd.png)](https://asciinema.org/a/BSCUS2K1eOyCu9YJ4zWccKFcd)
-<p>&nbsp;</p>
+
+
 - brain-calc
 
+
 [![asciicast brain-calc](https://asciinema.org/a/koQXxPatSSOOsXMfb2Me0OD2s.png)](https://asciinema.org/a/koQXxPatSSOOsXMfb2Me0OD2s)
-<p>&nbsp;</p>
+
+
 - brain-gcd
 
 
 [![asciicast brain-gcd](https://asciinema.org/a/fIZsuV5LIebhBnQS64LHu8dOc.png)](https://asciinema.org/a/fIZsuV5LIebhBnQS64LHu8dOc)
-<p>&nbsp;</p>
+
+
 - brain-progression
 
 
 [![asciicast brain-progression](https://asciinema.org/a/0OPAMh2xlfm8eqTC1KwgQYnwn.png)](https://asciinema.org/a/0OPAMh2xlfm8eqTC1KwgQYnwn)
-<p>&nbsp;</p>
+
+
 - brain-prime
 
 
