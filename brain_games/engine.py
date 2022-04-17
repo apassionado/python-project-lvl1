@@ -11,7 +11,8 @@ def greet():
 def run_game(game):
     name = greet()
     print(game.DESCRIPTION)
-    for i in range(3):
+    number_of_trials = 3
+    for i in range(number_of_trials):
         outcome = game.test()
         bet = outcome[0]
         truth = outcome[1]
