@@ -1,11 +1,10 @@
 from random import randint
-import prompt
 
 
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-def test():
+def get_question_and_answer():
     diff = randint(1, 5)
     first = randint(1, 5)
     quise = first + (randint(0, 9) * diff)
@@ -16,6 +15,5 @@ def test():
         a = '..' if i == quise else str(i)
         test_string = f'{test_string} {a}'
     print(f'Question:{test_string}')
-    bet = prompt.string('Your answer: ')
     truth = str(quise)
-    return bet, truth
+    return truth

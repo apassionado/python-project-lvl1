@@ -1,21 +1,15 @@
 import prompt
 
 
-def greet():
+def run_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    return name
-
-
-def run_game(game):
-    name = greet()
     print(game.DESCRIPTION)
     number_of_trials = 3
     for i in range(number_of_trials):
-        outcome = game.test()
-        bet = outcome[0]
-        truth = outcome[1]
+        truth = game.get_question_and_answer()
+        bet = prompt.string('Your answer: ')
         if bet == truth:
             print('Correct!')
         else:
