@@ -8,13 +8,15 @@ def run_game(game):
     print(game.DESCRIPTION)
     rounds_count = 3
     for i in range(rounds_count):
-        truth = game.get_question_and_answer()
-        print(truth[1])
+        question_and_answer = game.get_question_and_answer()
+        question = question_and_answer[1]
+        answer = question_and_answer[0]
+        print(question)
         bet = prompt.string('Your answer: ')
-        if bet == truth[0]:
+        if bet == answer:
             print('Correct!')
         else:
-            print(f"'{bet}' is wrong answer ;(. Correct answer was '{truth}'.")
+            print(f"'{bet}' is wrong answer ;(. Correct answer was '{answer}'.")
             print(f"Let's try again, {name}!")
             return
     return print(f'Congratulations, {name}!')
