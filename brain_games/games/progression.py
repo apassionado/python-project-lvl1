@@ -14,6 +14,6 @@ def get_question_and_answer():
     for i in range(first, after_last, diff):
         a = '..' if i == quise else str(i)
         test_string = f'{test_string} {a}'
-    print(f'Question:{test_string}')
+    c = (f'Question:{test_string}')
     truth = str(quise)
-    return truth
+    return truth, c

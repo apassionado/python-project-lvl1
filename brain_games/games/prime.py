@@ -10,5 +10,5 @@ def get_question_and_answer():
     for i in range(2, last):
         if last % i == 0:
             truth = 'no'
-    print(f'Question: {last}')
-    return truth
+    c = f'Question: {last}'
+    return truth, c

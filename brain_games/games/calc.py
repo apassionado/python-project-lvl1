@@ -12,12 +12,12 @@ def get_question_and_answer():
     m = ops_sequence.pop(0)
     if m == 1:
         result = rand_num1 + rand_num2
-        print(f'Question: {rand_num1} + {rand_num2}')
+        c = f'Question: {rand_num1} + {rand_num2}'
     if m < 1:
         result = rand_num1 - rand_num2
-        print(f'Question: {rand_num1} - {rand_num2}')
+        c = f'Question: {rand_num1} - {rand_num2}'
     if m > 1:
         result = rand_num1 * rand_num2
-        print(f'Question: {rand_num1} * {rand_num2}')
+        c = f'Question: {rand_num1} * {rand_num2}'
     truth = str(result)
-    return truth
+    return truth, c

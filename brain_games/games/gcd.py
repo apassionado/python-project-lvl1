@@ -10,5 +10,5 @@ def get_question_and_answer():
     rand_num2 = randint(1, 100)
     result = math.gcd(rand_num1, rand_num2)
     truth = str(result)
-    print(f'Question: {rand_num1} {rand_num2}')
-    return truth
+    c = f'Question: {rand_num1} {rand_num2}'
+    return truth, c

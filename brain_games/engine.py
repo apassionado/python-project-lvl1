@@ -6,11 +6,12 @@ def run_game(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.DESCRIPTION)
-    number_of_trials = 3
-    for i in range(number_of_trials):
+    rounds_count = 3
+    for i in range(rounds_count):
         truth = game.get_question_and_answer()
+        print(truth[1])
         bet = prompt.string('Your answer: ')
-        if bet == truth:
+        if bet == truth[0]:
             print('Correct!')
         else:
             print(f"'{bet}' is wrong answer ;(. Correct answer was '{truth}'.")
