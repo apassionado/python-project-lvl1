@@ -8,15 +8,12 @@ def run_game(game):
     print(game.DESCRIPTION)
     rounds_count = 3
     for i in range(rounds_count):
-        question_and_answer = game.get_question_and_answer()
-        question = question_and_answer[1]
-        answer = question_and_answer[0]
-        print(question)
-        bet = prompt.string('Your answer: ')
-        if bet == answer:
-            print('Correct!')
-        else:
-            print(f"'{bet}' is wrong answer ;(. Correct answer was '{answer}'.")
+        answer, question = game.get_question_and_answer()
+        print(f'Question: {question}')
+        your_answer = prompt.string('Your answer: ')
+        if your_answer != answer:
+            print(f"'{your_answer}' is wrong answer ;(. Correct answer was '{answer}'.")  # noqa: E501
             print(f"Let's try again, {name}!")
             return
+        print('Correct!')
     return print(f'Congratulations, {name}!')
