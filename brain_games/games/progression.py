@@ -5,12 +5,13 @@ DESCRIPTION = 'What number is missing in the progression?'
 
 
 def get_question_and_answer():
-    diff = randint(1, 5)
+    step = randint(1, 5)
     first = randint(1, 5)
-    last = first + (9 * diff)
-    progression = list(range(first, last + 1, diff))
+    length = 10
+    last = first + (length - 1) * step
+    progression = list(range(first, last + 1, step))
     index = randint(0, 9)
-    answer = str(progression[index])
+    correct_answer = str(progression[index])
     progression[index] = '..'
     question = f'{" ".join(map(str, progression))}'
-    return answer, question
+    return correct_answer, question
