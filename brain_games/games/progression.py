@@ -10,8 +10,8 @@ def get_question_and_answer():
     length = 10
     last = first + (length - 1) * step
     progression = list(range(first, last + 1, step))
-    index = randint(0, 9)
+    index = randint(0, length - 1)
     correct_answer = str(progression[index])
     progression[index] = '..'
-    question = f'{" ".join(map(str, progression))}'
+    question = " ".join(map(str, progression))
     return correct_answer, question

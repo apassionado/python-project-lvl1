@@ -17,4 +17,4 @@ def run_game(game):
                   f"Let's try again, {user_name}!")
             return
         print('Correct!')
-    return print(f'Congratulations, {user_name}!')
+    print(f'Congratulations, {user_name}!')
